@@ -4,13 +4,10 @@
 }
 
 .row > div {
-
    height: 100px; 
    width: 100px;
    float: right;
    cursor: pointer;
-
-
 }
 
 .row {
@@ -21,20 +18,16 @@
 
 .top {
     border-bottom: 1px black solid
-
 }
 
 .bottom {
-    border-top: 1px black solid
-    
+    border-top: 1px black solid 
 }
 
 .left {
-    border-left: 1px black solid
-    
+    border-left: 1px black solid  
 }
 
 .right {
     border-right: 1px black solid
-
 }
