@@ -6,7 +6,7 @@
 .row > div {
    height: 100px; 
    width: 100px;
-   float: right;
+   float: left;
    cursor: pointer;
 }
 
@@ -25,9 +25,9 @@
 }
 
 .left {
-    border-left: 1px black solid  
+    border-right: 1px black solid  
 }
 
 .right {
-    border-right: 1px black solid
+    border-left: 1px black solid
 }
