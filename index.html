@@ -1,35 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Molle:ital@1&family=Righteous&family=Roboto&display=swap" rel="stylesheet">
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tic Tac Toe</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-
+  <body>
     <div id="board">
-        <h1>Tic Tac Toe</h1>
-        <div class="row">
-            <div class="top left"></div>
-            <div class="top middle"></div>
-            <div class="top right"></div>
-        </div>
-        <div class="row">
-            <div class="center left"></div>
-            <div class="center middle"></div>
-            <div class="center right"></div>
-        </div>
-        <div class="row">
-            <div class="bottom left"></div>
-            <div class="bottom middle"></div>
-            <div class="bottom right"></div>
-        </div>
+      <h1>Tic - Tac - Toe</h1>
+      <h2 id="playText">Let's Play!</h2>
+      <div class="row">
+        <div class="top left"></div>
+        <div class="top middle"></div>
+        <div class="top right"></div>
+      </div>
+      <div class="row">
+        <div class="center left"></div>
+        <div class="center middle"></div>
+        <div class="center right"></div>
+      </div>
+      <div class="row">
+        <div class="bottom left"></div>
+        <div class="bottom middle"></div>
+        <div class="bottom right"></div>
+      </div>
+      <h3 id="restartMessage">
+        <button onClick="window.location.reload();">restart</button>
+
+      </h3>
     </div>
-
-</body>
-
+    <script src="app.js"></script>
+  </body>
 </html>

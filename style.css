@@ -1,33 +1,82 @@
+body {
+  background-color: rgba(14, 20, 40, 1);
+}
+
 #board {
-    padding: 3em;
-    text-align: center;
+  text-align: center;
+  padding: 3em;
+  margin: auto;
+  width: 50%;
+  width: 500px;
+  height: 600px;
+  background-color: rgba(232, 226, 217, 1);
+  border: rgba(241, 136, 5, 1) double 20px;
+  border-radius: 25px;
 }
 
 .row > div {
-   height: 100px; 
-   width: 100px;
-   float: left;
-   cursor: pointer;
+  height: 100px;
+  width: 100px;
+  float: left;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-size: 5em;
+  color: rgba(240, 162, 2, 1);
 }
 
 .row {
-    clear: both;
-    width: 302px;
-    margin: 0 auto;
+  clear: both;
+  width: 310px;
+  margin: 0 auto;
 }
 
 .top {
-    border-bottom: 1px black solid
+  border-bottom: 3px solid rgba(123, 158, 137, 1);
 }
 
 .bottom {
-    border-top: 1px black solid 
+  border-top: 3px solid rgba(123, 158, 137, 1);
 }
 
 .left {
-    border-right: 1px black solid  
+  border-right: 3px solid rgba(123, 158, 137, 1);
 }
 
 .right {
-    border-left: 1px black solid
+  border-left: 3px solid rgba(123, 158, 137, 1);
 }
+
+button {
+    height: 50px;
+    width: 100px;
+    background-color: transparent;
+    border: rgba(14, 20, 40, 1) solid 3px;
+    border-radius: 25px;
+    font-family: "Righteous", cursive;
+    font-size: 1.2em;
+}
+
+
+h1 {
+  font-size: 3em;
+  font-family: "Righteous", cursive;
+  color: rgba(123, 158, 137, 1);
+}
+
+h2 {
+  font-size: 2em;
+  font-family: "Molle", cursive;
+  padding: 30px, auto;
+  color: rgba(217, 93, 57, 1);
+}
+
+h3 {
+  font-size: 0.9em;
+  text-align: center;
+  display: block;
+  clear: both;
+  padding: 50px;
+  font-family: "Righteous", cursive;
+  color: rgba(14, 20, 40, 1);
+}
+
